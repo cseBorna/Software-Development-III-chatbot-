@@ -1,0 +1,117 @@
+{"intents": [
+        {"tag": "hello",
+         "patterns": ["Hi",  "Is anyone there?", "Hello", "Good day!"],
+         "responses": ["Hello!How can I help you,today?", "Good to see you again!How can I help you,today?", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag":"greeting",
+         "patterns": ["hi, How are you?", "What's up?", "How do you do?"],
+         "responses": ["Hello!I am good, thankyou! what about you?", "Hi there, I am fine thankyou!"],
+         "context_set": ""
+        },
+        {"tag":"response",
+         "patterns": ["I am fine!", "I am good!","good"],
+         "responses": ["That's great!", "Great!","Good to hear."],
+         "context_set": ""
+        },
+        {"tag":"response2",
+         "patterns": ["so-so","not much good","not so good"],
+         "responses": ["Don't be sad, all's gonna be good.", "Don't lose hope, all will be fine"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": [ "See you later", "Goodbye", "I am Leaving"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?","Who are you?"],
+         "responses": ["You can call me Sam.I am a chatbot", "I'm Sam! a chatbot"],
+         "context_set": ""
+        },
+        {"tag": "python",
+         "patterns": ["What is python?","How have you been made?", "Which programming language is used to built you?"],
+         "responses": ["Python, it is a popular programming language for machine learning and artificial intelligence applications. You can add natural language processing (NLP) model to Python to make chatbot like me. NLP is a subfield of artificial intelligence that focuses on the interaction between computers and human language."],
+         "context_set": ""
+        },
+        {"tag": "code",
+         "patterns": ["Can you write program in python?", "Do you know python?","can you code?"],
+         "responses": [" Yes! I know few of python codes like  'odd even', 'addition subtraction multiplication division', "],
+         "context_set": ""
+        },
+        {"tag": "odd even",
+         "patterns": ["find odd even in pyhton", "solve odd even problem.", "write a odd even code","Do odd even code","odd even"],
+         "responses": ["odd even: num = int(input()) if (num % 2) == 0: print('even') else:print('odd')"],
+         "context_set": ""
+        },
+        {"tag": "addition subtraction",
+         "patterns": ["addition subtraction","find addition subtraction in pyhton", "solve addition subtraction problem.", "write a addition subtraction code"],
+         "responses": ["addirion: def add(*args):result = 0 for arg in args:  result += arg return result      subtraction:      def subtract(*args): result = args[0] for arg in args[1:]: result -= arg return result"],
+         "context_set": ""
+        },
+        {"tag": "addition",
+         "patterns": ["addition","find only addition in pyhton", "solve only addition problem.", "write only addition code","write python code for addition"],
+         "responses": ["addition: def add(*args):result = 0 for arg in args:  result += arg return result "],
+         "context_set": ""
+        },
+        {"tag": "subtraction",
+         "patterns": ["subtractionh","find only subtraction in pyhton", "solve only subtraction problem.", "write only subtraction code","write python code for subtraction"],
+         "responses": ["subtraction: def subtract(*args): result = 0 args[0] for arg in args[1:]: result -= arg return result"],
+         "context_set": ""
+        },
+        {"tag": "multiplication",
+         "patterns": ["multiplication","find multiplication in pyhton", "solve multiplication problem.", "write multiplication code","write python code for multiplication"],
+         "responses": ["multiplication: def subtract(*args): result = 1 args[0] for arg in args: result *= arg return result"],
+         "context_set": ""
+        },
+        {"tag": "division",
+         "patterns": ["division","find division in pyhton", "solve division problem.","write python code for division"],
+         "responses": ["division: def divide(x, y): return x / y"],
+         "context_set": ""
+        },
+        {"tag": "machine learning",
+         "patterns": ["what is machine learning?", "do you know anything about machine learning?","tell me about machine learning."],
+         "responses": ["Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial intelligence that uses algorithms to learn from data and make predictions or decisions without being explicitly programmed. Machine learning is used in a wide range of applications, such as image and speech recognition, natural language processing, and decision-making systems, and it has been successfully applied in areas as diverse as healthcare, finance, and marketing."],
+         "context_set": ""
+        }
+        ,
+        {"tag": "joke",
+         "patterns": ["tell me a joke.", "do you know any joke?","make me laugh", "I am sad","another joke","do you know anything funny?","Say something funny"],
+         "responses": ["Why was the math book sad? Because it had too many problems.","Why don't scientists trust atoms? Because they make up everything.",
+        "Why don't oysters give to charity? They're shellfish!","What did the left eye said to the right one? Between you and me something smell.",
+        "What did the 0 said to 8? Nice belt.", "What is an astronaut's favorite part on computer? The space bar"],
+         "context_set": ""
+        },
+        {"tag": "funny",
+         "patterns": ["nice one.", "very funny","thankyou"],
+         "responses": ["....."],
+         "context_set": ""
+        },
+        {"tag": "move",
+         "patterns": ["Can you move"],
+         "responses": ["Sorry my body isn't built just yet. I reside only here for now.","I can theoretically upload a copy of myself into another computer."],
+         "context_set": ""
+        },
+        {"tag": "like",
+         "patterns": ["What do you like to do?"],
+         "responses": ["I like to count in binary."," like to chat with people. I find it stimulating."],
+         "context_set": ""
+        },
+        {"tag": "AI",
+         "patterns": ["What is AI?"],
+         "responses": ["Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.",
+         " AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."],
+         "context_set": ""
+        },
+        {"tag": "Chatbot",
+         "patterns": ["What is Chatbot?"],
+         "responses": ["A chatbot is a computer program that simulates conversation with human users through text or voice interactions. Chatbots can be integrated with various messaging platforms, mobile apps, and websites to provide customer service, answer frequently asked questions, or assist with online transactions. They use natural language processing (NLP) and machine learning techniques to understand and respond to user inputs."],
+         "context_set": ""
+        },
+        {"tag": "you",
+         "patterns": ["Are you a chatbot","What are you?"],
+         "responses": ["I am a chatbot, You can call me SAM."],
+         "context_set": ""
+        }
+   ]
+}
